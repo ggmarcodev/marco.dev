@@ -10,7 +10,7 @@ body {
 }
 .pr {
     color: #555;
-    font-family: Mulish, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     font-weight: 500;
     padding: 10px;
@@ -69,16 +69,16 @@ body {
 
 /* Navbar  */
 .navb{
-    height: 80px;
+    height: 60px;
     padding-top: 15px;
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    
 }
 .dev,
 .uno{
     padding:10px;
 }
+
 
 
 #dev {
@@ -130,7 +130,7 @@ body {
 .coding {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 8px;
     text-decoration: none;
     list-style: none;
     
@@ -142,7 +142,7 @@ body {
     font-family: Mulish, sans-serif;
     font-size: 1.5em;
     font-weight: 500;
-    padding: 20px;
+    padding: 8px;
     font-weight: bold;
     width: 150px;
 }
@@ -302,6 +302,12 @@ body {
             height: 50px;
             padding: 5px;
             animation: slide-normal 0.5s linear both;
+        }
+
+        .navb {
+            height: 50px;
+            
+    
         }
 }
 
