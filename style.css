@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-color: #8e8e8e #fff;
+    scrollbar-width: thin;  
+}
+body {
+    overflow-x: hidden;
+}
+.pr {
+    color: #555;
+    font-family: Mulish, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+.prnc {
+    color: #555;
+    font-family: Mulish, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 10px;  
+}
+.bigp {
+    color: #2d2e32;
+    font-size: 1.5rem;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.bluh1 {
+    color: #147efb;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.bluh1nc {
+    color: #147efb;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.extended-background{
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    background-color: f9f9f9;
+        /* Colore di sfondo originale del div */
+}
+.extended-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100%;
+    background-color: #f9f9f9;
+    z-index: -1;
+}
+
+/* Navbar  */
+.navb{
+    
+    height: 80px;
+    padding-top: 25px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.dev,
+.uno{
+    padding:40px;
+}
+
+
+#dev {
+    font-size: larger;
+    text-decoration: none;
+    color: #2d2e32;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+}
+.uno {
+    
+    text-decoration: none;
+    color: #2d2e32;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+}
+
+
+
+/* section 1 */
+
+.logo {
+    height: 60px;
+    width: 60px;
+    text-decoration: none;
+    list-style: none;
+}
+.bigtitolo {
+    color: #2d2e32;
+    font-size: 4.5rem;
+    line-height: 1;
+    padding: 10px;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+}
+#dacentr {
+
+    text-align:center;
+    color: #147efb;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.techstack{
+    width: 60%;
+}
+.coding {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-decoration: none;
+    list-style: none;
+    width: 80%;
+}
+
+
+.pg {
+    color: #555;
+    font-family: Mulish, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 20px;
+    font-weight: bold;
+    width: 150px;
+}
+
+.foto {
+    animation: morph 8s ease-in-out infinite;
+    background-image: url("img/io.png");
+    background-size: cover;
+    border: 3px solid #2d2e32;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    height: 18rem;
+    width: 18rem;
+    transition: all 1s ease-in-out;
+}
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
+
+/* section 2 */
+
+#pcimg {
+    border: 3px solid #2d2e32;
+    height: 300px;
+    width: 400px;
+    border-radius: 30px;
+    
+}
+#rotate {
+    animation: rotate 9s linear infinite;
+    width: 12rem;
+    border-radius: 50%;
+    bottom:120px;
+    left:240px;
+    position: relative;
+    border: 2px solid black;
+}
+#emoji {
+    height: 5rem;
+    width: 5rem;
+    position: relative;
+    left: 100px;
+    bottom: 130px;
+}
+.divrotate{
+    height: 80px;
+}
+@keyframes rotate {
+    100% {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+    }
+}
+
+/* section 3 projects*/
+.projectimg {
+    width: 450px;
+    height: 300px;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+
+.contactimg {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    animation: slide-normal 0.5s linear both;
+}
+
+.dividiprogetto {
+    height: 50px;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.09);
+    margin:30px;
+}
+
+/* footer */
+
+.ftcontainer{
+    background-color: #2d2e32;
+    width: 100%;
+}
+.ftp{
+    color: aliceblue;
+}
+.contactimg:hover {
+    animation: slide-top 0.5s linear both;
+}
+
+@keyframes slide-normal {
+    0% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+}
