@@ -17,8 +17,8 @@ body {
     text-align: center;
 }
 .prnc {
-    color: #555;
-    font-family: Mulish, sans-serif;
+    color: #2d2e32;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     font-weight: 500;
     padding: 10px;  
@@ -220,7 +220,7 @@ body {
 }
 
 .dividiprogetto {
-    height: 50px;
+    height: 20px;
     box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.09);
     margin:30px;
 }
@@ -267,7 +267,7 @@ body {
         width: 300px;
         height: 200px;
     }
-        .dev,
+        #dev,
         .uno {
             font-size: 14px;
         }
@@ -291,6 +291,18 @@ body {
         top:0px;
         
     }
+
+        .techstack {
+            margin-top: 30px;
+            width: 100%;
+        }
+
+        .contactimg {
+            width: 50px;
+            height: 50px;
+            padding: 5px;
+            animation: slide-normal 0.5s linear both;
+        }
 }
 
 @media (min-width: 436px) and (max-width: 1200px) {
