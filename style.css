@@ -11,7 +11,7 @@ body {
 .pr {
     color: #555;
     font-family: Mulish, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: 500;
     padding: 10px;
     text-align: center;
@@ -19,31 +19,31 @@ body {
 .prnc {
     color: #555;
     font-family: Mulish, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: 500;
     padding: 10px;  
 }
 .bigp {
     color: #2d2e32;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     line-height: 1;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 .bluh1 {
     color: #147efb;
-    font-size: 1.7rem;
+    font-size: 1.7em;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 .bluh1nc {
     color: #147efb;
-    font-size: 1.7rem;
+    font-size: 1.7em;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     
@@ -69,15 +69,15 @@ body {
 
 /* Navbar  */
 .navb{
-    
     height: 80px;
-    padding-top: 25px;
+    padding:0 0;
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    
 }
 .dev,
 .uno{
-    padding:40px;
+    padding:0px;
 }
 
 
@@ -108,7 +108,7 @@ body {
 }
 .bigtitolo {
     color: #2d2e32;
-    font-size: 4.5rem;
+    font-size: 4.5em;
     line-height: 1;
     padding: 10px;
     text-align: center;
@@ -118,10 +118,10 @@ body {
 
     text-align:center;
     color: #147efb;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: 700;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-bottom: 1em;
+    margin-top: 1em;
     font-family: 'Roboto', sans-serif;
 }
 .techstack{
@@ -140,7 +140,7 @@ body {
 .pg {
     color: #555;
     font-family: Mulish, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: 500;
     padding: 20px;
     font-weight: bold;
@@ -153,8 +153,8 @@ body {
     background-size: cover;
     border: 3px solid #2d2e32;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    height: 18rem;
-    width: 18rem;
+    height: 18em;
+    width: 18em;
     transition: all 1s ease-in-out;
 }
 @keyframes morph {
@@ -182,7 +182,7 @@ body {
 }
 #rotate {
     animation: rotate 9s linear infinite;
-    width: 12rem;
+    width: 12em;
     border-radius: 50%;
     bottom:120px;
     left:240px;
@@ -190,8 +190,8 @@ body {
     border: 2px solid black;
 }
 #emoji {
-    height: 5rem;
-    width: 5rem;
+    height: 5em;
+    width: 5em;
     position: relative;
     left: 100px;
     bottom: 130px;
@@ -262,11 +262,11 @@ body {
     }
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 768px) {
     .projectimg,
     #pcimg{
-        width: 250px;
-        height: 150px;
+        width: 300;
+        height: 200;
     }
 }
-
