@@ -261,3 +261,13 @@ body {
         transform: translateY(-5px);
     }
 }
+
+@media (max-width: 600px) {
+    .projectimg,
+    .contactimg,
+    #pcimg{
+        width: 350px;
+        height: 200px;
+    }
+}
+
