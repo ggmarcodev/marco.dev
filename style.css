@@ -264,7 +264,6 @@ body {
 
 @media (max-width: 600px) {
     .projectimg,
-    .contactimg,
     #pcimg{
         width: 250px;
         height: 150px;
