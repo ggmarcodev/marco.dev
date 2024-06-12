@@ -132,12 +132,14 @@ body {
     flex-wrap: wrap;
     padding: 8px;
     text-decoration: none;
-    list-style: none;
-    
+    list-style: none;  
 }
 
 
 .pg {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     color: #555;
     font-family: Mulish, sans-serif;
     font-size: 1.5em;
@@ -306,8 +308,9 @@ body {
 
         .navb {
             height: 50px;
-            
-    
+        }
+        .coding{
+            justify-content: center;
         }
 }
 
