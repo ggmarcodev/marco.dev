@@ -70,7 +70,7 @@ body {
 /* Navbar  */
 .navb{
     height: 80px;
-    padding:0 0;
+    padding-top: 15px;
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     
@@ -133,7 +133,7 @@ body {
     padding: 20px;
     text-decoration: none;
     list-style: none;
-    width: 80%;
+    
 }
 
 
@@ -184,21 +184,19 @@ body {
     animation: rotate 9s linear infinite;
     width: 12em;
     border-radius: 50%;
-    bottom:120px;
-    left:240px;
     position: relative;
+    right:160px;
+    top:160px;
     border: 2px solid black;
 }
 #emoji {
     height: 5em;
     width: 5em;
     position: relative;
-    left: 100px;
-    bottom: 130px;
+    right:300px;
+    top:150px;
 }
-.divrotate{
-    height: 80px;
-}
+
 @keyframes rotate {
     100% {
         -webkit-transform: rotate(1turn);
@@ -273,4 +271,30 @@ body {
         .uno {
             font-size: 14px;
         }
+    
+    #rotate {
+    animation: rotate 9s linear infinite;
+    width: 12em;
+    border-radius: 50%;
+    position: relative;
+    left:60px;
+    top: 0px;
+    right: 0px;
+    border: 2px solid black;
+    }
+    #emoji {
+        height: 5em;
+        width: 5em;
+        position: relative;
+        right:80px;
+        bottom: 10px;
+        top:0px;
+        
+    }
+}
+
+@media (min-width: 436px) and (max-width: 1200px) {
+    .coltohide {
+        display: none;
+    }
 }
