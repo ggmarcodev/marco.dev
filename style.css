@@ -153,8 +153,7 @@ body {
     animation: morph 8s ease-in-out infinite;
     background-image: url("img/io.png");
     background-size: cover;
-    /* Aggiungi o modifica questa riga */
-    background-position: 40% 50%; /* Sposta l'immagine a sinistra (40% < 50%) e la mantiene centrata verticalmente (50%) */
+    background-position: 47% 50%;
     border: 3px solid #2d2e32;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     height: 18em;
